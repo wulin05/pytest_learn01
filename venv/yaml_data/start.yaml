@@ -1,0 +1,15 @@
+-
+  name: 访问网页接口
+  request:
+    method: get
+    url: http://47.107.116.139/phpwind/
+    data: None
+  validate: None
+
+-
+  name: 访问jcbc网页接口
+  request:
+    method: get
+    url: https://www.jcbc.co.jp/
+    data: None
+  validate: None

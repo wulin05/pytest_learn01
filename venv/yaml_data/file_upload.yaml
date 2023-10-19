@@ -1,0 +1,12 @@
+-
+  name: 上传文件接口
+  request:
+      method: post
+      url: https://api.weixin.qq.com/cgi-bin/media/uploadimg
+      data: {}
+      files:
+          media: "D:/xiaoma.png"
+  validate:
+  - equals: {status_code: 200}
+  - contains: url
+  - contains: http

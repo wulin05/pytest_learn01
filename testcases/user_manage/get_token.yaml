@@ -1,0 +1,37 @@
+# 注意: yaml格式的文件支持 # 进行注释, 但不支持"""这种注释的方式"""
+
+#pop_singers:
+#  - 周杰伦:
+#      - age: 99
+#  - 林俊杰:
+#      - age: 88
+#  - 王力宏:
+#      - info:
+#          - age: 77
+#          - gender: 男
+#      - identity: 歌手
+
+-
+  name: 获取统一接口鉴权码token
+  request:
+    method: get
+    url: https://api.weixin.qq.com/cgi-bin/token
+    data:
+      grant_type: client_credential
+      appid: wx6b11b3efd1cdc290
+      secret: 106a9c6157c4db5f6029918738f9529d
+  validate: None
+#
+#-
+#  name: 获取统一接口鉴权码
+#  request:
+#    method: post
+#    url: POST https://api.weixin.qq.com/cgi-bin/clear_quota/v2
+#    data:
+#      grant_type: ""
+#      appid: wx6b11b3efd1cdc290
+#      secret: 106a9c6157c4db5f6029918738f9529d
+#  validate: None
+
+
+

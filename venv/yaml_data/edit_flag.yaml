@@ -1,0 +1,19 @@
+-
+  name: 编辑接口用例正常示例
+  request:
+    method: post
+    url: https://api.weixin.qq.com/cgi-bin/tags/update
+    data:
+      tag: {"id": 134, "name": "福建人"}
+  validate: None
+
+#-
+##  name: 编辑接口用例错误示例
+##  request:
+##    method: post
+##    url: https://api.weixin.qq.com/cgi-bin/tags/update
+##    data:
+##      tag:
+##        id: 0
+##        name: 福建人
+##  validate: None
